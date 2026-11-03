@@ -1,9 +1,11 @@
 .about-us-container {
-    width:      70vw;
+    width:      65vw;
     height:     auto;
     margin:     0 auto;
-    padding:    5vw;
-    background-color: red;
+    padding:    5vh 5vw 5vh 5vw;
+
+    /*background-color: red;*/
+
     text-align: justify;
   }
   
@@ -32,3 +34,4 @@
   .plant_logo_left{
     text-align: left;
   }
+  
