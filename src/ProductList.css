@@ -154,12 +154,18 @@ body {
 }
 
 .luxury {
-    display: flex;
-    align-items: center;
+    display:         flex;
+    align-items:     center;
     justify-content: center;
-    width: 650px;
-    font-size: 19px;
+
+    width:           auto;
+    font-size:       20px;
 }
+
+.luxury img {
+    margin-right: 20px;
+}
+
 .cart{
     color: white;
     display: flex;
@@ -188,6 +194,17 @@ body {
 
     
 }
+
+/* Plant category headings */
+.product-grid h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #2e7d32;
+    margin: 35px 0 20px;
+}
+
 /* Add Media Query for responsiveness */
 @media (max-width: 768px) {
     .product-card {
